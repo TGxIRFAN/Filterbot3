@@ -680,7 +680,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Rᴇᴩᴏ', url='https://github.com/CrazyDeveloperTG/Doctor-Strange'),
+            InlineKeyboardButton('Rᴇᴩᴏ', url='https://t.me/filesharebotusers'),
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -713,7 +713,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "seenowner":
         buttons = [[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ', url='https://t.me/psycho_009')
+            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ', url='https://t.me/TGxIRFAN')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -723,10 +723,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "seenupdates":
         buttons = [[
-            InlineKeyboardButton('Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ', url='https://t.me/MH_moviesgroup01')
+            
             ],[
-            InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/MH_moviesgroup1'),
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
+
+
             ],[
             InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/MLZ_BOTZ'),
             InlineKeyboardButton('Bᴏᴛ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MLZ_BOTZ_SUPPORT')
@@ -741,13 +741,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "seenupdate":
         buttons = [[
-            InlineKeyboardButton('Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ', url='https://t.me/MH_moviesgroup01')
+            
             ],[
-            InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/MH_moviesgroup1'),
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movies_channel001')
+            
+            
             ],[
-            InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/MLZ_BOTZ'),
-            InlineKeyboardButton('Bᴏᴛ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MLZ_BOTZ_SUPPORT')
+            InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/filesharebotusers'),
+            InlineKeyboardButton('Bᴏᴛ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/filesharebotusers')
             ],[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
           ]]
@@ -895,8 +895,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Ak_Links1'),
-           InlineKeyboardButton('Oᴡɴᴇʀ', url='https://t.me/psycho_009')
+           InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/filesharebotusers'),
+           InlineKeyboardButton('Oᴡɴᴇʀ', url='https://t.me/TGxIRFAN')
         ], [
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help')
         ]]
