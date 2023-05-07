@@ -43,15 +43,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('× Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌬ owner ⌬', callback_data='seenowner')
+            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', callback_data='ownerane')
             ],[
-            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help2'),
-            InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
-            ],[
-            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ ⌬', callback_data='seenupdate')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help2'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEG4mJjoA1ylosRblUY1GtYjv7KmzQm9AAC-AMAAp9EiVed3ajGmwsl5iwE") 
@@ -77,15 +75,13 @@ async def start(client, message):
             await ForceSub(client, message)
             return
         buttons = [[
-            InlineKeyboardButton('× Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌬ owner ⌬', callback_data='seenowner')
+            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', callback_data='ownerane')
             ],[
-            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help2'),
-            InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
-            ],[
-            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ ⌬', callback_data='seenupdate')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help2'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
