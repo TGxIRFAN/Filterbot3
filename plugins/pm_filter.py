@@ -728,8 +728,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
             ],[
-            InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/MLZ_BOTZ'),
-            InlineKeyboardButton('Bᴏᴛ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MLZ_BOTZ_SUPPORT')
+            InlineKeyboardButton('Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/filesharebotusers'),
+            InlineKeyboardButton('Bᴏᴛ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/filesharebotusers')
             ],[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='about'),
           ]]
